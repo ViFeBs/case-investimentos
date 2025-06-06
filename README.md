@@ -6,7 +6,7 @@ o backend e o banco de dados estão em containers, então para rodar a aplicaç�
 eu já configurei o migration do prisma no dockerfile então assim que o compose for usado, a aplicação já
 estara funcionando. <br /> 
 
-já o frontend basta abrir um terminal na pasta e rodar um npm run dev <br /> 
+já o frontend basta abrir um terminal na pasta e rodar o comando npm install e depois npm run dev <br /> 
 
 # PORTAS <br /> 
 Backend rodando na 3333 <br /> 
