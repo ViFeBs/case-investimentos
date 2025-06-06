@@ -1,19 +1,19 @@
 # case-investimentos <br /> 
 projeto fullstack para cadastrar e listar clientes de um banco de investimento <br /> 
 
-#SETUP <br /> 
+# SETUP <br /> 
 o backend e o banco de dados estão em containers, então para rodar a aplicação basta um docker compose up 
 eu já configurei o migration do prisma no dockerfile então assim que o compose for usado, a aplicação já
 estara funcionando. <br /> 
 
 já o frontend basta abrir um terminal na pasta e rodar um npm run dev <br /> 
 
-#PORTAS <br /> 
+# PORTAS <br /> 
 Backend rodando na 3333 <br /> 
 DB na 3306 (a porta local é 3307 por que a 06 não estava disponivel no meu dispositivo) <br /> 
 Frontend na 3000 <br /> 
 
-#ROTAS <br /> 
+# ROTAS <br /> 
 Backend: <br /> 
 get /clientes Busca todos os clientes <br /> 
 get /clientesporstatus Busca clientes com o status ativo <br /> 
