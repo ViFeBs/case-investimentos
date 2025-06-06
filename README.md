@@ -1,17 +1,17 @@
-# case-investimentos
-projeto fullstack para cadastrar e listar clientes de um banco de investimento
+# case-investimentos /n
+projeto fullstack para cadastrar e listar clientes de um banco de investimento /n
 
-#SETUP
-o backend e o banco de dados estão em containers, então para rodar a aplicação basta um docker compose up
+#SETUP /n
+o backend e o banco de dados estão em containers, então para rodar a aplicação basta um docker compose up 
 eu já configurei o migration do prisma no dockerfile então assim que o compose for usado, a aplicação já
-estara funcionando
+estara funcionando. /n
 
-já o frontend basta abrir um terminal na pasta e rodar um npm run dev
+já o frontend basta abrir um terminal na pasta e rodar um npm run dev /n
 
-#PORTAS
-Backend rodando na 3333
-DB na 3306 (a porta local é 3307 por que a 06 não estava disponivel no meu dispositivo)
-Frontend na 3000
+#PORTAS /n
+Backend rodando na 3333 /n
+DB na 3306 (a porta local é 3307 por que a 06 não estava disponivel no meu dispositivo) /n
+Frontend na 3000 /n
 
 #ROTAS
 Backend:
